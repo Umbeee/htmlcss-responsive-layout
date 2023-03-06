@@ -5,11 +5,14 @@
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+p{
+    line-height: 1.6;
+}
 header{
     position: sticky;
     top: 0px;
     width: 100%;
-    background-color: lightskyblue;
+    background-color: rgb(0,132,253);
 }
 
 /* main{
@@ -71,13 +74,16 @@ header{
 .padding-top-30{
     padding-top: 30px;
 }
+.padding-bot-50{
+    padding-bottom: 50px;
+}
 
 .background-white{
     background-color: white;
 }
 
 .background-blue{
-    background-color: lightskyblue;
+    background-color: rgb(181,221,255);
 }
 
 .padding-top-50{
@@ -116,7 +122,7 @@ header{
 }
 
 .color-blue{
-    color: blue;
+    color: rgb(2,133,253);
 }
 
 .margin-bottom-20{
@@ -138,21 +144,31 @@ header{
 #apple-store{
     width: 60%; height: 2.2em;
     margin-left: auto; margin-right: auto;
-    background-color: blue;
+    background-color: rgb(2,133,253);
 }
 
-#more{
+.more{
     width: 40%; height: 2.2em;
     margin-left: 0px;
-    background-color: lightskyblue;
+    background-color: rgb(151,146,228);
 }
 
-p{
-    line-height: 1.6;
+#get-started{
+    width: 50%; height: 3.2em;
+    background-color: white;
+    color: rgb(151,146,228);
 }
+
+#find-me-link{
+    width: 50%; height: 3.2em;
+    background-color: rgb(151,146,228);
+    color: white;
+}
+
+
 
 .i-blue{
-    color: blue;
+    color: rgb(0,132,253);
     font-size: 6em;
 }
 .padding-bot-30{
@@ -162,7 +178,10 @@ p{
 /* sezione 2 (sfondo lilla) */
 
 .background-purple{
-    background-color: lightcoral;
+    background-color: rgb(151,146,228);
+}
+.color-purple{
+    color: rgb(151,146,228);
 }
 
 /* .container-foto-sz2{
@@ -203,4 +222,30 @@ p{
 }
 #testimonial-3{
     background-image: url("../img//testimonial3.jpg");
+}
+
+#testimonial-4{
+    background-image: url("../img//about.jpg");
+    margin-left: 0;
+    position: relative;
+}
+
+.absolute-top-right{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#its-free{
+    font-size: 3.5em;
+    color: rgb(253,193,95);
+}
+
+footer{
+    background-color: rgb(51,51,51);
+    color: white;
+}
+
+footer a {
+    color: rgb(115,111,165);
 }
