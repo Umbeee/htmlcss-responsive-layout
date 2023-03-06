@@ -81,10 +81,22 @@ header{
     margin-right: auto;
 }
 
-.padding-all-30{
+.padding-card-1-30{
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 30px;
+}
+
+.padding-all-30{
+    padding: 30px;
+}
+
+.padding-right-5px{
+    padding-right: 5px;
+}
+
+.padding-bot-100{
+    padding-bottom: 100px;
 }
 
 .border-radius{
@@ -117,15 +129,15 @@ header{
     background-color: blue;
 }
 
-/* .padding-btn{
-    padding-left: 15px; padding-right: 15px;
-    padding-bottom: 7px; padding-right: 7px;
-} */
-
-/* .display-inline-block{
-    display: inline-block;
-} */
 
 p{
     line-height: 1.6;
+}
+
+.i-blue{
+    color: blue;
+    font-size: 6em;
+}
+.padding-bot-30{
+    padding-bottom: 30px;
 }
