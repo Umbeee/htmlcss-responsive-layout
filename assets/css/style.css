@@ -17,8 +17,18 @@ header{
     height: 2000px;
 } */
 
+/* valori flex */
 .flex{
     display: flex;
+}
+.flex-column{
+    flex-direction: column;
+}
+.vertical-gap{
+    gap: 20px;
+}
+.justify-center{
+    justify-content: center;
 }
 
 .space-between{
@@ -48,4 +58,74 @@ header{
 .padding-30{
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.background-white{
+    background-color: white;
+}
+
+.background-blue{
+    background-color: lightskyblue;
+}
+
+.padding-top-50{
+    padding-top: 50px;
+}
+
+.display-block{
+    display: block;
+}
+.phone-photo{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.padding-all-30{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+
+.border-radius{
+    border-radius: 25px;
+}
+
+.color-blue{
+    color: blue;
+}
+
+.margin-bottom-20{
+    margin-bottom: 20px;
+}
+
+.text-d-none{
+    text-decoration: none;
+}
+
+.color-white{
+    color: white;
+}
+
+.text-align-center{
+    text-align: center;
+}
+
+#apple-store{
+    width: 60%; height: 2.2em;
+    margin-left: auto; margin-right: auto;
+    background-color: blue;
+}
+
+/* .padding-btn{
+    padding-left: 15px; padding-right: 15px;
+    padding-bottom: 7px; padding-right: 7px;
+} */
+
+/* .display-inline-block{
+    display: inline-block;
+} */
+
+p{
+    line-height: 1.6;
 }
