@@ -2,4 +2,50 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: lightskyblue;
+}
+
+/* main{
+    background-color: blue;
+    height: 2000px;
+} */
+
+.flex{
+    display: flex;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+.btn-white{
+    color: white;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logo{
+    width: 120%;
+}
+
+.font-size-2em{
+    font-size: 2em;
+}
+
+.padding-30{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
