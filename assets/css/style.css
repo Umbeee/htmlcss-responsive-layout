@@ -59,9 +59,17 @@ header{
     font-size: 2em;
 }
 
+.font-size-3em{
+    font-size: 3em;
+}
+
 .padding-30{
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.padding-top-30{
+    padding-top: 30px;
 }
 
 .background-white{
@@ -133,6 +141,11 @@ header{
     background-color: blue;
 }
 
+#more{
+    width: 40%; height: 2.2em;
+    margin-left: 0px;
+    background-color: lightskyblue;
+}
 
 p{
     line-height: 1.6;
