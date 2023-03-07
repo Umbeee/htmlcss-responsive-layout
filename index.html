@@ -32,9 +32,9 @@
    <main>
 
         <!-- sezione 1 (sfondo bianco card azzurre) -->
-        <section class="flex flex-column container background-white padding-top-50 vertical-gap padding-bot-100">
+        <section class="flex flex-column container background-white padding-top-50 vertical-gap padding-bot-100" id="section-1">
             
-            <div class="background-blue border-radius">
+            <div class="background-blue border-radius" id="card-1">
                 <div class="padding-card-1-30">
                     <h2 class="color-blue margin-bottom-20">Get a demo application</h2> 
                     <p class="margin-bottom-20">
@@ -50,7 +50,7 @@
                 </div> 
             </div>
 
-            <div class="background-blue border-radius">
+            <div class="background-blue border-radius cards">
                 <div class="padding-all-30">
                     <i class="fa-regular fa-file-code text-align-center display-block i-blue padding-bot-30"></i>
                     <h2 class="text-align-center color-blue padding-bot-30">Clean code</h2> 
@@ -60,7 +60,7 @@
                 </div> 
             </div>
 
-            <div class="background-blue border-radius">
+            <div class="background-blue border-radius cards">
                 <div class="padding-all-30">
                     <i class="fa-solid fa-compass-drafting text-align-center display-block i-blue padding-bot-30"></i>
                     <h2 class="text-align-center color-blue padding-bot-30">Web design</h2> 
@@ -70,7 +70,7 @@
                 </div> 
             </div>
 
-            <div class="background-blue border-radius">
+            <div class="background-blue border-radius cards">
                 <div class="padding-all-30">
                     <i class="fa-solid fa-laptop-code text-align-center display-block i-blue padding-bot-30"></i>
                     <h2 class="text-align-center color-blue padding-bot-30">Developement</h2> 
@@ -80,7 +80,7 @@
                 </div> 
             </div>
 
-            <div class="background-blue border-radius">
+            <div class="background-blue border-radius cards">
                 <div class="padding-all-30">
                     <i class="fa-solid fa-bullhorn text-align-center display-block i-blue padding-bot-30"></i>
                     <h2 class="text-align-center color-blue padding-bot-30">Branding</h2> 
@@ -93,23 +93,28 @@
 
 
         <!-- sezione 2 (sfondo viola) -->
-        <section class=" background-purple padding-top-50 vertical-gap padding-bot-100">
+        <section class=" background-purple padding-top-50 vertical-gap padding-bot-100" >
 
-            <div class="flex flex-column container vertical-gap">
-                <img src="./assets/img/planning1.png" alt="">
-                <h2 class="color-white">Strategic Planning</h2>
-                <p class="color-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. A quos quam amet. Dolorum necessitatibus reprehenderit, suscipit, obcaecati libero animi facere laudantium dolorem iusto quibusdam, doloribus id culpa quis esse. Dicta?</p>
-                <div class="background-white flex-column flex vertical-gap border-radius">
-                    <img src="./assets/img/planning2.png" alt="" class="container">
+            <div class="flex flex-column container relative" id="section-2">
+
+                <div class="flex flex-column  vertical-gap padding-bot-100 " id="card-1-sec-2">
+                    <img src="./assets/img/planning1.png" alt="planning">
+                    <h2 class="color-white font-size-3em">Strategic Planning</h2>
+                    <p class="color-white">Lorem, ipsum dolor sit amet consectetuadipisicing elit. A quos quam amet. Dolorum necessitatibureprehenderit, suscipit, obcaecati libero animi facere laudantiudolorem iusto quibusdam, doloribus id culpa quis esse. Dicta?</p>
+                </div>
+
+                <div class="background-white flex-column flex vertical-gap border-radius  " id="card-2-sec-2">
+                    <img src="./assets/img/planning2.png" alt="planning" class="container">
                     <h3 class="text-align-center">App Developement</h3>
-                    <p class="text-align-center container italique">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium minus atque quisquam consectetur minima, quae, ea repudiandae nihil eveniet voluptatibus autem natus nisi consequatur esse cumque, reprehenderit doloremque recusandae laboriosam.</p>
-                    <div class="margin-bottom-20 border-radius text-align-center flex align-center justify-center btn-arrow background-purple align-self">
-                        <a href="#" ><i class="fa-solid fa-arrow-down-long text-align-center"></i></a>
+                    <p class="text-align-center container italique">Lorem ipsum dolor sitamet consectetur adipisicing elit. Praesentium minus atque quisquamconsectetur minima, quae, ea repudiandae nihil eveniet voluptatibus autemnatus nisi consequatur esse cumque, reprehenderit doloremque recusandaelaboriosam.</p>
+                    <div class="margin-bottom-20 border-radius flex align-center justify-center btn-arrow background-purple align-self">
+                        <a href="#" ><i class="fa-solid fa-arrow-down-long align-center"></i></a>
                     </div>
                 </div>
             </div>
         </section>
 
+        <!-- sezione 3 sfondo bianco -->
         <section class=" background-white padding-top-50 vertical-gap padding-bot-100">
 
             <div class="flex flex-column container vertical-gap text-align-center">
@@ -118,22 +123,28 @@
                 <h2 class="color-blue">We are committed expert partners</h2>
                 <p>We place huge value on strong relationships and have seen the benefitthey bring to our business. Customer feedback is vital in helping us to get it right.</p>
 
-                <div class="background-purple color-white flex flex-column vertical-gap border-radius">
+                <div class="background-purple color-white flex flex-column vertical-gap border-radius cards-sec-3">
                     <div class="card-testimonials phone-photo" id="testimonial-1"></div>
-                    <p class="container">"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis tenetur possimus blanditiis veniam, esse non quidem beatae ipsam, voluptatem quibusdam recusandae rerum eaque consectetur repellendus excepturi quo. Deserunt, sed esse."</p>
+                    <div class="container"><p>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis tenetur possimus blanditiis veniam, esse non quidem beatae ipsam, voluptatem quibusdam recusandae rerum eaque consectetur repellendus excepturi quo. Deserunt, sed esse."</p>
                     <h3 class="padding-bot-30">NAT REYNOLDS</h3>
+                    </div>
+                    
                 </div>
 
-                <div class="background-purple color-white flex flex-column vertical-gap border-radius">
+                <div class="background-purple color-white flex flex-column vertical-gap border-radius cards-sec-3">
                     <div class="card-testimonials phone-photo" id="testimonial-2"></div>
-                    <p class="container">"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis tenetur possimus blanditiis veniam, esse non quidem beatae ipsam, voluptatem quibusdam recusandae rerum eaque consectetur repellendus excepturi quo. Deserunt, sed esse."</p>
+                    <div class="container"><p>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis tenetur possimus blanditiis veniam, esse non quidem beatae ipsam, voluptatem quibusdam recusandae rerum eaque consectetur repellendus excepturi quo. Deserunt, sed esse."</p>
                     <h3 class="padding-bot-30">NAT REYNOLDS</h3>
+                    </div>
+                    
                 </div>
 
-                <div class="background-purple color-white flex flex-column vertical-gap border-radius">
+                <div class="background-purple color-white flex flex-column vertical-gap border-radius cards-sec-3">
                     <div class="card-testimonials phone-photo" id="testimonial-3"></div>
-                    <p class="container">"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis tenetur possimus blanditiis veniam, esse non quidem beatae ipsam, voluptatem quibusdam recusandae rerum eaque consectetur repellendus excepturi quo. Deserunt, sed esse."</p>
+                    <div class="container"><p>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis tenetur possimus blanditiis veniam, esse non quidem beatae ipsam, voluptatem quibusdam recusandae rerum eaque consectetur repellendus excepturi quo. Deserunt, sed esse."</p>
                     <h3 class="padding-bot-30">NAT REYNOLDS</h3>
+                    </div>
+                    
                 </div>
             </div>
         </section>
