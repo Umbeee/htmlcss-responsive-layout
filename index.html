@@ -19,9 +19,15 @@
             <a href="#"><img src="./assets/img/logo.png" alt="logo" class="logo"></a>
             <div>
                 <nav>
-
+                    <ul class="flex">
+                        <li><a class="color-white text-d-none margin-btn-nav" href="#">Planning</a></li>
+                        <li><a class="color-white text-d-none margin-btn-nav" href="#">Testimonials</a></li>
+                        <li><a class="color-white text-d-none margin-btn-nav" href="#">Features</a></li>
+                        <li><a class="color-white text-d-none margin-btn-nav" href="#">About Us</a></li>
+                        <li><a class="color-black text-d-none padding-btn border-radius flex justify-center align-centers align-center margin-btn-nav" id="get-started-nav" href="#">Get started</a></li>
+                    </ul>
                 </nav>
-                <a href="#"><i class="fa-solid fa-bars btn-white font-size-2em"></i></a>
+                <a href="#" id="hamburger"><i class="fa-solid fa-bars btn-white font-size-2em"></i></a>
             </div>
            
         </div>
@@ -222,15 +228,23 @@
             </div>
         </section>
 
+
+        <!-- sezione 5, about us -->
         <section>
-            <div class="flex flex-column vertical-gap container">
-                    <h2 class="font-size-3em color-purple padding-top-50">About Us</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis maiores asperiores quos officia perferendis eligendi commodi eveniet, possimus quidem officiis voluptatibus molestias iusto dolores eaque aut doloremque error suscipit eius. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error, ullam? Corrupti veniam repellat delectus repellendus ab voluptatem quibusdam, voluptatibus nihil, ipsa, culpa est aperiam nesciunt eligendi quaerat quasi ut unde?
-                    </p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci laboriosam hic quam, nobis eveniet sed voluptatibus corporis asperiores, obcaecati aspernatur assumenda veniam culpa facilis, rerum excepturi. Consectetur fugit animi eius.
-                    </p>
+            <div class="flex flex-column vertical-gap container" id="section-5">
+
+                <div class="col-sx">
+                   <h2 class="font-size-3em color-purple padding-top-50 margin-bottom-20">About Us</h2>
+                    <p class="margin-bottom-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis maiores asperiores quos officia perferendis eligendi commodi eveniet, possimus quidem officiis voluptatibus molestias iusto dolores eaque aut doloremque error suscipit eius. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error, ullam? Corrupti veniam repellat delectus repellendus ab voluptatem quibusdam, voluptatibus nihil, ipsa, culpa est aperiam nesciunt eligendi quaerat quasi ut unde?
                     
-                    <div class="card-testimonials phone-photo" id="testimonial-4">
+                    </p>
+                    <p class="margin-bottom-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci laboriosam hic quam, nobis eveniet sed voluptatibus corporis asperiores, obcaecati aspernatur assumenda veniam culpa facilis, rerum excepturi. Consectetur fugit animi eius.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus alias dignissimos saepe maiores asperiores, ipsam veritatis ullam consectetur obcaecati aut magni ipsum laborum? Eaque temporibus qui nostrum molestiae porro non.
+                    </p> 
+                </div>
+                   
+                <div class="col-dx flex flex-column vertical-gap">
+                   <div class="card-testimonials phone-photo" id="testimonial-4">
                         <i class="fa-solid fa-quote-right absolute-top-right font-size-3em color-purple"></i>
                     </div>
                    
@@ -242,7 +256,10 @@
                         Find me on linkedin
                         </span>
                         
-                    </div>
+                    </div> 
+                </div>
+                    
+                    
             </div>
         </section>
 
@@ -251,7 +268,7 @@
             <div class="container flex flex-column vertical-gap color-white align-center padding-top-50 padding-bot-50">
 
                 <h4>GET STARTED</h4>
-                <h2>Simple, Transparent Pricing</h2>
+                <h2 class="font-size-2em">Simple, Transparent Pricing</h2>
 
                 <h2 id="its-free">It's Free!</h2>
 
